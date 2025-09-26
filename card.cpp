@@ -6,10 +6,10 @@ const QMap<int,QPoint> Card::pos={{0,QPoint(350,45)},{1,QPoint(411,45)},{2,QPoin
                                      {5,QPoint(655,45)},{6,QPoint(716,45)}};
 const QMap<int,QString> Card::mapping = {{0,"sunflower"}, { 1,"peashooter"}, {2,"snowpeashooter"}, {3,"potatomine"},
                                           {4,"wallnut"}, {5,"repeater"}, {6,"cherrybomb"}};
-//const QMap<QString, int> Card::freeze = {{"sunflower",175 * 0}, {"peashooter",175 * 0}, {"cherrybomb",175 * 0}, {"wallnut", 175 * 0},
-  //                                       {"snowpeashooter", 175 * 0}, {"potatomine", 175 * 0}, {"repeater", 175 * 0}};
- const QMap<QString, int> Card::freeze = {{"sunflower",175}, {"peashooter",175}, {"cherrybomb",175 * 6}, {"wallnut", 175 * 4},
-                                         {"snowpeashooter", 175}, {"potatomine", 175 * 4}, {"repeater", 175}};
+const QMap<QString, int> Card::freeze = {{"sunflower",175 * 0}, {"peashooter",175 * 0}, {"cherrybomb",175 * 0}, {"wallnut", 175 * 0},
+                                         {"snowpeashooter", 175 * 0}, {"potatomine", 175 * 0}, {"repeater", 175 * 0}};
+ //const QMap<QString, int> Card::freeze = {{"sunflower",175}, {"peashooter",175}, {"cherrybomb",175 * 6}, {"wallnut", 175 * 4},
+   //                                      {"snowpeashooter", 175}, {"potatomine", 175 * 4}, {"repeater", 175}};
 const QMap<QString,int> Card::cost={{"sunflower",50}, {"peashooter",100}, {"cherrybomb",150}, {"wallnut", 50},
                                        {"snowpeashooter", 175}, {"potatomine", 25}, {"repeater", 200}};
 

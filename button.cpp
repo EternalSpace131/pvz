@@ -6,7 +6,7 @@ bool Button::strength_activate = false;
 
 Button::Button(int s) {
     count = 0;
-    freeze_time = 1600;
+    freeze_time = 0;
     state = 0;
     type = s;
 }
