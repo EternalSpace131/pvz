@@ -47,5 +47,3 @@ make -j4
 | `plants.cpp`、`zombie.cpp` 及各角色同名文件 | 角色基类、攻击、移动和动画 |
 | `button.cpp`、`sun.cpp`、`car.cpp` | 强化与铲子、可收集的阳光、草坪小推车 |
 | `resources/`、`res.qrc` | 游戏素材与 Qt 资源清单 |
-
-[原课程仓库（南京大学 GitLab）](https://git.nju.edu.cn/Wall/pvz)
