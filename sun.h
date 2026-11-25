@@ -5,7 +5,7 @@
 #include <QGraphicsScene>
 #include <QSoundEffect>
 #include <QMovie>
-#include <Qpainter>
+#include <QPainter>
 #include <QGraphicsSceneMouseEvent>
 
 class Sun:public QGraphicsItem,public QGraphicsScene

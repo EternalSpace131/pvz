@@ -2,6 +2,8 @@
 
 用 C++ 和 Qt Widgets 实现的五行草坪塔防游戏。开局有 1500 阳光，可以先种向日葵积累资源，再用寒冰射手减速、坚果阻挡、双发射手输出。游戏采用无尽模式，普通、路障、铁桶、铁网门、橄榄球和超级橄榄球僵尸会陆续出现。每行草坪左侧的小推车提供一次最后防守。
 
+![实际对局画面：寒冰射手和双发射手在第四行开火，土豆地雷和坚果守在前方](docs/gameplay.png)
+
 ## 构建与启动
 
 准备支持 C++17 的桌面编译器，以及包含 qmake、Core、Gui、Widgets、Multimedia 的 Qt 桌面开发套件。Windows 下要让 Qt 与编译器匹配，例如 MinGW 版 Qt 搭配对应版本的 MinGW。
@@ -10,13 +12,13 @@
 2. 选择桌面构建套件（Desktop Kit）并配置项目。
 3. 按 `Ctrl+R` 构建并运行。在主菜单点击「开始」，再点击僵尸留下的纸条，进入草坪。
 
-如果使用 Linux 和 Qt 5，在仓库根目录执行以下命令。`qmake` 须来自已安装的 Qt 开发套件。
+以下命令从仓库根目录执行，已在 Ubuntu 24.04、Qt 5.15.13 下完成构建和启动验证。Ubuntu 所需的开发包为 `build-essential`、`qtbase5-dev` 和 `qtmultimedia5-dev`。
 
 ```sh
 mkdir -p build
 cd build
 qmake ../pvz-Qt.pro
-make -j
+make -j4
 ./pvz-Qt
 ```
 

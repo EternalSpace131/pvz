@@ -1,6 +1,6 @@
 #include "zombie.h"
 #include "plants.h"
-#include <Qtimer>
+#include <QTimer>
 #include <QApplication>
 
 Zombie::Zombie() {
